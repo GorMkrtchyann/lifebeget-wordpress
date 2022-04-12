@@ -392,6 +392,7 @@ header .illustration svg {
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: start;
+  margin-bottom: 35px;
 }
 
 .content-3 .list .item img {
@@ -401,6 +402,10 @@ header .illustration svg {
 
 .content-3 .list .item p {
   margin-top: 0;
+}
+
+.content-3 .list .item:last-child {
+  margin-bottom: 0;
 }
 
 .content-4 {
@@ -429,7 +434,7 @@ header .illustration svg {
 }
 
 .content-4 .blocks .block {
-  width: 300px;
+  width: 30%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1184,6 +1189,15 @@ footer a {
     font-weight: 600;
     font-size: 20px;
     line-height: 24px;
+  }
+  .content-4 .blocks {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .content-4 .blocks .block {
+    width: 300px;
   }
   .content-5 {
     padding: 30px 0;
