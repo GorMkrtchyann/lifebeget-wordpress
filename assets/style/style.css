@@ -475,8 +475,9 @@ header .illustration svg {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-pack: space-betweengit;
+      -ms-flex-pack: space-betweengit;
+          justify-content: space-betweengit;
 }
 
 .content-5 .text {
