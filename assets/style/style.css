@@ -469,13 +469,14 @@ header .illustration svg {
 .content-5 {
   background: linear-gradient(265.6deg, #00CF9B 97.18%, #F8947E 106.94%);
   color: #fff;
-  margin-top: 70px;
 }
 
 .content-5 .container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 
 .content-5 .text {
